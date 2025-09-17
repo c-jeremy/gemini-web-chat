@@ -5,7 +5,7 @@ export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl
 
   // Handle secret auth route
-  if (pathname === "/cjeremy") {
+  if (pathname === "/secret-auth") {
     const response = NextResponse.redirect(new URL("/", request.url))
     // Set secure HTTP-only cookie for 30 days
     response.cookies.set("auth-token", "authenticated", {
@@ -31,5 +31,5 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/", "/api/chat/:path*", "/cjeremy"],
+  matcher: ["/", "/api/chat/:path*", "/secret-auth"],
 }
