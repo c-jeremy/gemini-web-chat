@@ -64,8 +64,8 @@ Open [http://localhost:3000/secret-auth](http://localhost:3000/secret-auth) with
 
 This application can be deployed on Vercel with minimal configuration:
 
-1. Push your code to GitHub
-2. Import your repository to Vercel
+1. Star & Fork this repo
+2. Import your repository at Vercel
 3. Add your environment variables in the Vercel project settings
 4. Deploy!
 
