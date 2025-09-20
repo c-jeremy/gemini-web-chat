@@ -27,8 +27,8 @@ A modern web application built with Next.js that integrates Google's Gemini AI A
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/c-jeremy/gemini-web-app.git
-cd gemini-web-app
+git clone https://github.com/c-jeremy/gemini-web-chat.git
+cd gemini-web-chat
 ```
 
 2. Install dependencies:
@@ -69,7 +69,7 @@ This application can be deployed on Vercel with minimal configuration:
 3. Add your environment variables in the Vercel project settings
 4. Deploy!
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fc-jeremy%2Fgemini-web-app)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fc-jeremy%2Fgemini-web-chat)
 
 ## Contributing
 
